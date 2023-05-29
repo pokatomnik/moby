@@ -1,0 +1,35 @@
+{
+  "name": "moby",
+  "version": "0.0.1",
+  "description": "Just like a MobX but with no magic",
+  "source": "src/index.ts",
+  "main": "dist/moby.js",
+  "module": "dist/moby.module.js",
+  "types": "dist/moby.d.ts",
+  "scripts": {
+    "test": "npm run test",
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "start": "parcel ./src/demo/index.html"
+  },
+  "keywords": [
+    "mobx",
+    "react",
+    "typescript",
+    "pubsub"
+  ],
+  "author": "Danilian Akhmedzianov",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.0",
+    "prettier": "^2.8.8",
+    "process": "^0.11.10",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

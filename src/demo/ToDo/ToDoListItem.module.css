@@ -1,0 +1,22 @@
+.li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checkbox {
+  margin-right: 8px;
+}
+
+.input {
+  width: 200px;
+}
+
+.span {
+  width: 200px;
+  font-family: sans-serif;
+}
+
+.button {
+  margin-right: 8px;
+}
