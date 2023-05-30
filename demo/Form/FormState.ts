@@ -1,4 +1,4 @@
-import { reactState, Store } from '../../lib/MobYState';
+import { reactState, Store } from '../../src/lib/MobYState';
 
 export class FormState extends Store {
   private readonly formShown = reactState(false);

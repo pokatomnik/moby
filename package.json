@@ -10,7 +10,7 @@
     "test": "npm run test",
     "watch": "parcel watch",
     "build": "parcel build",
-    "start": "parcel ./src/demo/index.html"
+    "start": "parcel ./demo/index.html"
   },
   "keywords": [
     "mobx",

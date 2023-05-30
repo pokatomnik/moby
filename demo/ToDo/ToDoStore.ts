@@ -1,4 +1,4 @@
-import { Store, reactArray } from '../../lib/MobYState';
+import { Store, reactArray } from '../../src/lib/MobYState';
 import { ToDoItem } from './ToDoItem';
 
 export class ToDoStore extends Store {
