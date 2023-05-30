@@ -1,6 +1,4 @@
-import type { PubSub } from './PubSub';
-import { SubscriberCallback } from './SubscriberCallback';
-import { Subscription } from './Subscription';
+import type { PubSub, SubscriberCallback, Subscription } from './Types';
 
 export class PubSubImpl<T> implements PubSub<T> {
   private readonly _subscribers = new Set<SubscriberCallback<T>>();

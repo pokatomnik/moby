@@ -1,9 +1,11 @@
 import * as React from 'react';
-import type { ReactState } from './ReactState';
-import type { SubscribableState } from './SubscribableState';
+import {
+  ReactState,
+  SubscribableState,
+  SubscriberCallback,
+  Subscription,
+} from './Types';
 import { SubscribableStateImpl } from './SubscribableStateImpl';
-import { SubscriberCallback } from './SubscriberCallback';
-import { Subscription } from './Subscription';
 
 export class ReactStateImpl<T> implements ReactState<T> {
   private readonly _subscribableState: SubscribableState<T>;
