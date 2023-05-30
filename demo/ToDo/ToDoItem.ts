@@ -1,4 +1,4 @@
-import { ReactState, reactState, Store } from '../../lib/MobYState';
+import { ReactState, reactState, Store } from '../../src/lib/MobYState';
 
 export class ToDoItem extends Store {
   private readonly title: ReactState<string>;
